@@ -13,11 +13,6 @@ def download():
         myVar.set ("mistake")
         root.update()
         link.set("Entre correct link")
-
-
-
-
-
 Label(root, text = "welcome to youtube \n Downloader", font = "Consolas 15 bold").pack()
 myVar= StringVar()
 myVar.set("Entre the link below")
@@ -25,5 +20,4 @@ Entry(root , textvariable=myVar, width=40).pack(pady=10)
 link = StringVar()
 Entry(root,textvariable=link , width=40).pack(pady=10)
 Button(root,text="download video ",command=download).pack()
-
 root.mainloop()
